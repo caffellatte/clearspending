@@ -1,0 +1,39 @@
+{
+  "name": "clearspending",
+  "version": "0.0.1",
+  "description": "Client for ClearSpending using their API",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node tests/test-*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caffellatte/clearspending.git"
+  },
+  "keywords": [
+    "clearspending",
+    "open",
+    "data",
+    "api",
+    "get",
+    "search",
+    "select",
+    "contracts",
+    "customers",
+    "suppliers"
+  ],
+  "author": "Mikhail Lutsenko <m.g.lutsenko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caffellatte/clearspending/issues"
+  },
+  "homepage": "https://github.com/caffellatte/clearspending#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "tape": "^4.9.1"
+  }
+}
