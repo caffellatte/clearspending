@@ -659,7 +659,7 @@ class Clearspending {
   }
 
   /*
-   * API status (number of records, update date, etc.) Info about the database
+   * Information (statistics) about the database (number of records, update date, etc.).
    */
   dbInfo (query) {
     if (!query.info) {
