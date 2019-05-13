@@ -95,8 +95,8 @@ class Clearspending {
    * Receive full information about the grant by the ID (get)
    * @ id - grants lacked unique identifiers, artificial identifiers were added.
    */
-  getGrant (id) {
-    if (!id) {
+  getGrant (query) {
+    if (!query.id) {
       return handleError(ERROR.MISSING_ID)
     }
 
@@ -104,7 +104,7 @@ class Clearspending {
       url: url.format({
         pathname: '/grants/get/',
         query: {
-          id: id
+          id: query.id
         }
       }),
       method: 'get'

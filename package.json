@@ -1,6 +1,6 @@
 {
   "name": "clearspending",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Client for ClearSpending using their API",
   "main": "index.js",
   "scripts": {
